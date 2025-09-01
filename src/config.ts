@@ -155,21 +155,15 @@ export const navBarConfig: NavBarConfig = {
 			children: [
 				{
 					name: "GitHub",
-					url: "https://github.com/matsuzaka-yuki/Mizuki",
+					url: "https://github.com/keduolim/keduolim.github.io/",
 					external: true,
-					icon: "fa6-brands:github",
+					icon: "fa6-brands:github-alt",
 				},
 				{
-					name: "Bilibili",
-					url: "https://space.bilibili.com/701864046",
+					name: "csdn",
+					url: "https://blog.csdn.net/m0_73966884?spm=1000.2115.3001.5343",
 					external: true,
-					icon: "fa6-brands:bilibili",
-				},
-				{
-					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
-					external: true,
-					icon: "mdi:git",
+					icon: "fa6-solid:code-branch",
 				},
 			],
 		},
@@ -219,24 +213,19 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.gif", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	avatar: "assets/images/keduolim.png", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "Keduolim",
 	bio: "早上好,夜之城",
 	links: [
 		{
-			name: "Bilibli",
-			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/701864046",
-		},
-		{
-			name: "Gitee",
-			icon: "mdi:git",
-			url: "https://gitee.com/matsuzakayuki",
-		},
-		{
 			name: "GitHub",
-			icon: "fa6-brands:github",
-			url: "https://github.com/matsuzaka-yuki",
+			url: "https://github.com/keduolim/keduolim.github.io/",
+			icon: "fa6-brands:github-alt",
+		},
+		{
+			name: "csdn",
+			url: "https://blog.csdn.net/m0_73966884?spm=1000.2115.3001.5343",
+			icon: "fa6-solid:code-branch",
 		},
 	],
 	// Umami统计部份，记得在layout插入Umami的head标签
@@ -260,7 +249,7 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 };
 
 export const commentConfig: CommentConfig = {
-	enable: false, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
+	enable: true, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
 	twikoo: {
 		envId: "https://twikoo.vercel.app",
 	},
