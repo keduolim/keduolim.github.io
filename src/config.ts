@@ -132,12 +132,12 @@ export const navBarConfig: NavBarConfig = {
 				},
 			],
 		},
-		LinkPreset.Diary, //日记
 		{
 			name: "我的",
 			url: "/content/",
 			icon: "material-symbols:person",
 			children: [
+				LinkPreset.Diary, //日记
 				{
 					name: "相册",
 					url: "/albums/",
