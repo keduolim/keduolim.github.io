@@ -19,26 +19,15 @@ export interface Project {
 
 export const projectsData: Project[] = [
 	{
-		id: "e-commerce-platform",
-		title: "E-commerce Platform",
-		description: "全栈电商平台，包含用户管理、商品管理、订单处理等功能。",
+		id: "AIcodeScanner",
+		title: "AIcodeScanner",
+		description: "基于本地深度学习模型,正则库,大模型的代码审计工具",
 		image: "",
-		category: "web",
-		techStack: ["Next.js", "Node.js", "PostgreSQL", "Stripe"],
-		status: "planned",
-		startDate: "2024-07-01",
-		tags: ["E-commerce", "Full Stack", "Payment Integration"],
-	},
-	{
-		id: "e-commerce-platform123",
-		title: "E-commerce Platform",
-		description: "全栈电商平台，包含用户管理、商品管理、订单处理等功能。",
-		image: "",
-		category: "web",
-		techStack: ["Next.js", "Node.js", "PostgreSQL", "Stripe"],
-		status: "planned",
-		startDate: "2024-07-01",
-		tags: ["E-commerce", "Full Stack", "Payment Integration"],
+		category: "mobile",
+		techStack: ["go", "sqlite", "electron", "js"],
+		status: "completed",
+		startDate: "2025-8-26",
+		tags: ["代码审计", "网络安全", "长城杯国二"],
 	},
 ];
 
