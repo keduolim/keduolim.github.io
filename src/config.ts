@@ -220,10 +220,9 @@ export const commentConfig: CommentConfig = {
 };
 
 export const announcementConfig: AnnouncementConfig = {
-	enable: true,
 	title: "V-keduolim", // 公告标题
 	content: "欢迎来到我的博客！这里致力于分享网安知识。", // 公告内容
-	closable: true, // 允许用户关闭公告
+	closable: false, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
 		text: "了解更多", // 链接文本
