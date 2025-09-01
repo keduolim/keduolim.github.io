@@ -145,8 +145,8 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 
 export const navBarConfig: NavBarConfig = {
 	links: [
-		LinkPreset.Home,
-		LinkPreset.Archive,
+		LinkPreset.Home, //首页
+		LinkPreset.Archive, //归档
 		// 支持自定义导航栏链接,并且支持多级菜单,3.1版本新加
 		{
 			name: "链接",
@@ -167,20 +167,20 @@ export const navBarConfig: NavBarConfig = {
 				},
 			],
 		},
-		// {
-		// 	name: "我的",
-		// 	url: "/content/",
-		// 	icon: "material-symbols:person",
-		// 	children: [
-		// 		LinkPreset.Anime,
-		// 		LinkPreset.Diary,
-		// 		{
-		// 			name: "相册",
-		// 			url: "/albums/",
-		// 			icon: "material-symbols:photo-library",
-		// 		},
-		// 	],
-		// },
+		{
+			name: "我的",
+			url: "/content/",
+			icon: "material-symbols:person",
+			children: [
+				LinkPreset.Anime,
+				LinkPreset.Diary,
+				{
+					name: "相册",
+					url: "/albums/",
+					icon: "material-symbols:photo-library",
+				},
+			],
+		},
 		{
 			name: "关于",
 			url: "/content/",
