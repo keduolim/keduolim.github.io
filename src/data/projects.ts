@@ -29,6 +29,17 @@ export const projectsData: Project[] = [
 		startDate: "2024-07-01",
 		tags: ["E-commerce", "Full Stack", "Payment Integration"],
 	},
+	{
+		id: "e-commerce-platform123",
+		title: "E-commerce Platform",
+		description: "全栈电商平台，包含用户管理、商品管理、订单处理等功能。",
+		image: "",
+		category: "web",
+		techStack: ["Next.js", "Node.js", "PostgreSQL", "Stripe"],
+		status: "planned",
+		startDate: "2024-07-01",
+		tags: ["E-commerce", "Full Stack", "Payment Integration"],
+	},
 ];
 
 // 获取项目统计信息
