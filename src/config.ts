@@ -132,6 +132,7 @@ export const navBarConfig: NavBarConfig = {
 				},
 			],
 		},
+		LinkPreset.Diary, //日记
 		{
 			name: "我的",
 			url: "/content/",

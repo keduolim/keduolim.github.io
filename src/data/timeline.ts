@@ -33,7 +33,7 @@ export const timelineData: TimelineItem[] = [
 		// endDate: "2025-08-16",
 		organization: "全国大学英语四、六级考试委员会",
 		achievements: [
-			"四级成绩：550分",
+			"四级成绩：455分",
 			"提升了英语技术文档阅读能力",
 			"为后续学习国外技术资料打下基础",
 		],
