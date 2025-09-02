@@ -84,7 +84,6 @@ export enum LinkPreset {
 	Friends = 3,
 	Anime = 4,
 	Diary = 5,
-
 	Projects = 7,
 	Skills = 8,
 	Timeline = 9,
