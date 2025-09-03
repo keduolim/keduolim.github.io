@@ -44,8 +44,24 @@ export const siteConfig: SiteConfig = {
 
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
-			desktop: ["/assets/desktop-banner/1.png"], // 桌面横幅图片
-			mobile: ["/assets/mobile-banner/1.png"], // 移动横幅图片
+			desktop: [
+				"/assets/desktop-banner/01.jpg",
+				"/assets/desktop-banner/ff71.jpg",
+				"/assets/desktop-banner/ff72.jpg",
+				"/assets/desktop-banner/hero.jpg",
+				"/assets/desktop-banner/heyei.jpg",
+				"/assets/desktop-banner/p5r.jpg",
+				"/assets/desktop-banner/uki.jpg",
+			], // 桌面横幅图片
+			mobile: [
+				"/assets/desktop-banner/01.jpg",
+				"/assets/desktop-banner/ff71.jpg",
+				"/assets/desktop-banner/ff72.jpg",
+				"/assets/desktop-banner/hero.jpg",
+				"/assets/desktop-banner/heyei.jpg",
+				"/assets/desktop-banner/p5r.jpg",
+				"/assets/desktop-banner/uki.jpg",
+			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
 		position: "center", // 等同于 object-position，仅支持 'top', 'center', 'bottom'。默认为 'center'
@@ -95,8 +111,24 @@ export const siteConfig: SiteConfig = {
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	enable: true, // 启用全屏壁纸功能,非Banner模式下生效
 	src: {
-		desktop: ["/assets/desktop-banner/1.png"], // 桌面横幅图片
-		mobile: ["/assets/mobile-banner/1.png"], // 移动横幅图片
+		desktop: [
+			"/assets/desktop-banner/01.jpg",
+			"/assets/desktop-banner/ff71.jpg",
+			"/assets/desktop-banner/ff72.jpg",
+			"/assets/desktop-banner/hero.jpg",
+			"/assets/desktop-banner/heyei.jpg",
+			"/assets/desktop-banner/p5r.jpg",
+			"/assets/desktop-banner/uki.jpg",
+		], // 桌面横幅图片
+		mobile: [
+			"/assets/desktop-banner/01.jpg",
+			"/assets/desktop-banner/ff71.jpg",
+			"/assets/desktop-banner/ff72.jpg",
+			"/assets/desktop-banner/hero.jpg",
+			"/assets/desktop-banner/heyei.jpg",
+			"/assets/desktop-banner/p5r.jpg",
+			"/assets/desktop-banner/uki.jpg",
+		], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
 	carousel: {
