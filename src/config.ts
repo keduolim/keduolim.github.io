@@ -49,18 +49,14 @@ export const siteConfig: SiteConfig = {
 				"/assets/desktop-banner/ff71.jpg",
 				"/assets/desktop-banner/ff72.jpg",
 				"/assets/desktop-banner/hero.jpg",
-				"/assets/desktop-banner/heyei.jpg",
 				"/assets/desktop-banner/p5r.jpg",
-				"/assets/desktop-banner/uki.jpg",
 			], // 桌面横幅图片
 			mobile: [
 				"/assets/desktop-banner/01.jpg",
 				"/assets/desktop-banner/ff71.jpg",
 				"/assets/desktop-banner/ff72.jpg",
 				"/assets/desktop-banner/hero.jpg",
-				"/assets/desktop-banner/heyei.jpg",
 				"/assets/desktop-banner/p5r.jpg",
-				"/assets/desktop-banner/uki.jpg",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -116,18 +112,14 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 			"/assets/desktop-banner/ff71.jpg",
 			"/assets/desktop-banner/ff72.jpg",
 			"/assets/desktop-banner/hero.jpg",
-			"/assets/desktop-banner/heyei.jpg",
 			"/assets/desktop-banner/p5r.jpg",
-			"/assets/desktop-banner/uki.jpg",
 		], // 桌面横幅图片
 		mobile: [
 			"/assets/desktop-banner/01.jpg",
 			"/assets/desktop-banner/ff71.jpg",
 			"/assets/desktop-banner/ff72.jpg",
 			"/assets/desktop-banner/hero.jpg",
-			"/assets/desktop-banner/heyei.jpg",
 			"/assets/desktop-banner/p5r.jpg",
-			"/assets/desktop-banner/uki.jpg",
 		], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
