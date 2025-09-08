@@ -60,6 +60,12 @@ draft: false
 
 ![payload](overpass/shell.png)
 
+告诉我们密码太弱，根据nmap发现的ftp端口信息，使用hydra进行爆破
+
+    方法：
+    hydra -l <用户名> -P <密码字典路径> <目标IP> <协议>
+    hydra -L <用户名字典路径> -p <密码> <目标IP> <协议>
+
 需要在攻击机上执行`python -m http.server 80 --bind 0.0.0.0`
 
     这句话的作用是
