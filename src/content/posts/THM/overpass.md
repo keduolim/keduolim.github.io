@@ -61,6 +61,7 @@ draft: false
 ![payload](overpass/shell.png)
 
 需要在攻击机上执行`python -m http.server 80 --bind 0.0.0.0`
+
     这句话的作用是
     启动一个 临时 HTTP 文件服务器：
     python -m http.server → 启动 Python 内置的 HTTP 服务器，把当前目录作为网站根目录。
@@ -74,6 +75,7 @@ draft: false
 这道题其实对于工具的使用要求并不是很高，除了常规的nmap跟dirsearch使用就是john工具进行ssh的爆破，属于很常规的工具使用手段
 
 更多的是考察思路，这道题的思考点有很多
+
     1，对于login.js文件的理解，能发现构建Cookie可以直接进admin就能解决第一问
     2，对于提权的常规理解，Suid提权，sudo -l提权啥的，这道题都用不了，但这道题提权的手段反而很简单
     理解定时任务的curl代码
