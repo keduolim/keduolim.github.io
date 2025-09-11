@@ -1,7 +1,7 @@
 ---
 title: Ignite
 description: 知识点-提权新姿势
-published: 2025-09-10
+published: 2025-09-11
 tags: [Markdown, THM, Blog]
 category: THM
 author: keduolim
